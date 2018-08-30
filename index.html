@@ -1,37 +1,90 @@
+
+<!--psd 2-->
+
+<!--<div class="login">-->
+    <!--<div class="left-side">-->
+
+        <!--<form class="left-side-form" action="">-->
+            <!--<h1 class="login-h1">ВХОД</h1>-->
+            <!--<div class="input-fields">-->
+            <!--<div class="input-control">-->
+                    <!--<label class="label-email">Ваш Логин или email</label>-->
+                    <!--<span class="mail-svg" include-svg src="img/icons/login/mail.svg"></span>-->
+                     <!--<input class="inp" type="text" placeholder="useremail@mail.com">-->
+            <!--</div>-->
+
+            <!--<div class="input-control">-->
+                     <!--<label class="label-pass" >Пароль</label>-->
+                     <!--<span class="unlocked-svg" include-svg src="img/icons/login/unlocked.svg"></span>-->
+                     <!--<input class="inp inp-pass" type="password" >-->
+                <!--&lt;!&ndash;placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"&ndash;&gt;-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<p class="error-pass-text orange-text">Вы ошиблись при вводе логина или пароля. Пожалуйста, повторите </p>-->
+            <!--<p class="error-pass-text orange-text second">Если Вы забыли паорль, Вы можете его <span>восстановить</span> </p>-->
+
+
+            <!--<div class="button-footer">-->
+                     <!--<a class="button-primary form-button" href="#">Войти</a>-->
+                     <!--<a class="forgot-text" href="#">Забыли пароль?</a>-->
+                     <!--<p class="forgot-text">Еще не зарегистрированы? <a class="register-text" href="#"> Регистрация</a></p>-->
+            <!--</div>-->
+            <!--<div class="social-links">-->
+                <!--<div class="social-links-text">Войти через</div>-->
+                <!--<span class="social-media-svg"  include-svg src="img/icons/login/facebook.svg"></span>-->
+                <!--<span class="social-media-svg" include-svg src="img/icons/login/google-plus.svg"></span>-->
+                <!--<span class="social-media-svg"  include-svg src="img/icons/login/windows.svg"></span>-->
+
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+    <!--<div class="right-side">-->
+        <!--Data from DB-->
+        <!--Все примеры, которые мы приводили выше, были построены с учетом однострочного (одностолбцового) расположения блоков.-->
+        <!--Надо сказать, что по умолчанию flex-контейнер всегда будет располагать блоки внутри себя в одну линию. Однако,-->
+        <!--спецификацией также поддерживается многострочный режим. За многострочность внутри flex-контейнера отвечает CSS свойство flex-wrap.-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--psd2 end-->
+
 <div class="login">
     <div class="left-side">
 
         <form class="left-side-form" action="">
-            <h1 class="login-h1">ВХОД</h1>
+            <h1>ВХОД</h1>
             <div class="input-fields">
-            <div class="input-control">
-                    <label class="label-email">Ваш Логин или email</label>
-                    <span class="mail-svg" include-svg src="img/icons/login/mail.svg"></span>
-                     <input class="inp" type="text" placeholder="useremail@mail.com">
+                <div class="input-control">
+                   <!-- <label class="label-email">Ваш Логин или email</label>-->
+                    <span class="icon-svg" include-svg src="img/icons/login/mail.svg"></span>
+                    <input class="" type="text" placeholder="Ваш Логин или email">
+                </div>
+
+                <div class="input-control">
+                    <!--<label class="label-pass" >Пароль</label>-->
+                    <span class="icon-svg" include-svg src="img/icons/login/unlocked.svg"></span>
+                    <input class=" inp-pass" type="password" placeholder="Пароль" >
+                    <!--placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"-->
+                </div>
             </div>
 
-            <div class="input-control">
-                     <label class="label-pass" >Пароль</label>
-                     <span class="unlocked-svg" include-svg src="img/icons/login/unlocked.svg"></span>
-                     <input class="inp inp-pass" type="password" >
-                <!--placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"-->
-            </div>
-            </div>
-            <p class="error-pass-text orange-text">Вы ошиблись при вводе логина или пароля. Пожалуйста, повторите </p>
-            <p class="error-pass-text orange-text second">Если Вы забыли паорль, Вы можете его <span>восстановить</span> </p>
+
+           <!-- <p class="error-pass-text orange-text">Вы ошиблись при вводе логина или пароля. Пожалуйста, повторите </p>
+            <p class="error-pass-text orange-text second">Если Вы забыли паорль, Вы можете его <span>восстановить</span> </p>-->
 
 
             <div class="button-footer">
-                     <a class="button-sm-primary task-action-execute form-button" href="#">Войти</a>
-                     <a class="forgot-text" href="#">Забыли пароль?</a>
-                     <p class="forgot-text">Еще не зарегистрированы? <a class="register-text" href="#"> Регистрация</a></p>
+                <a class="button-primary form-button" href="#">Войти</a>
+                <a class="forgot-text" href="#">Забыли пароль?</a>
+                <p class="forgot-text">Еще не зарегистрированы? <a class="register-text" href="#"> Регистрация</a></p>
             </div>
             <div class="social-links">
                 <div class="social-links-text">Войти через</div>
-                <span class="social-media-svg"  include-svg src="img/icons/login/facebook.svg"></span>
-                <span class="social-media-svg" include-svg src="img/icons/login/google-plus.svg"></span>
-                <span class="social-media-svg"  include-svg src="img/icons/login/windows.svg"></span>
-
+                <div class="icon">
+                    <span class="social-media-svg"  include-svg src="img/icons/login/facebook.svg"></span>
+                    <span class="social-media-svg" include-svg src="img/icons/login/google-plus.svg"></span>
+                    <span class="social-media-svg"  include-svg src="img/icons/login/windows.svg"></span>
+                </div>
             </div>
         </form>
     </div>
